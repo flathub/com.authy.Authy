@@ -26,7 +26,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/plougher/squashfs-tools.git
-        tag: '4.5.1'
+        tag: 4.5.1
         commit: afdd63fc386919b4aa40d573b0a6069414d14317
 
   - name: authy
@@ -41,9 +41,9 @@ modules:
     sources:
       - type: extra-data
         filename: authy.snap
-        url: https://api.snapcraft.io/api/v1/snaps/download/H8ZpNgIoPyvmkgxOWw5MSzsXK1wRZiHn_12.snap
-        sha256: bd26ea4f6b3994b114d52483682fac4baaade38ea248a61480ab9d3b958c3aee
-        size: 109084672
+        url: https://api.snapcraft.io/api/v1/snaps/download/H8ZpNgIoPyvmkgxOWw5MSzsXK1wRZiHn_18.snap
+        sha256: b4f7dcb26e51c9551ed88b88a066eedd906848465288eedd6369983dfd1139bc
+        size: 109101056
         x-checker-data:
           type: snapcraft
           name: authy
@@ -51,7 +51,8 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - unsquashfs -dest authy -quiet -no-progress -excludes authy.snap meta usr lib command.sh desktop-init.sh desktop-common.sh desktop-gnome-specific.sh
+          - unsquashfs -dest authy -quiet -no-progress -excludes authy.snap meta usr
+            lib command.sh desktop-init.sh desktop-common.sh desktop-gnome-specific.sh
           - rm -f authy.snap
       - type: script
         dest-filename: authy
