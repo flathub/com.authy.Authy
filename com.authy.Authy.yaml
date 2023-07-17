@@ -41,9 +41,9 @@ modules:
     sources:
       - type: extra-data
         filename: authy.snap
-        url: https://api.snapcraft.io/api/v1/snaps/download/H8ZpNgIoPyvmkgxOWw5MSzsXK1wRZiHn_19.snap
-        sha256: 58dfef718de47c5fc7419ee8a7221d0debd4e680d80c68ec852ed7554ef2ae3f
-        size: 73871360
+        url: https://api.snapcraft.io/api/v1/snaps/download/H8ZpNgIoPyvmkgxOWw5MSzsXK1wRZiHn_20.snap
+        sha256: 269aa33db0c21d9f308a9fcf1d89f926fd5ed9a8223ad49ba0051f5496f30d28
+        size: 84652032
         x-checker-data:
           type: snapcraft
           name: authy
