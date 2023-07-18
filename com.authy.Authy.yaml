@@ -37,9 +37,9 @@ modules:
       - install -Dpm755 -t "${FLATPAK_DEST}/bin" apply_extra
       - install -Dpm755 -t "${FLATPAK_DEST}/bin" authy
     post-install:
-      - install -Dpm644 -t "${FLATPAK_DEST}/share/icons/hicolor/512x512/apps" com.authy.Authy.png
-      - install -Dpm644 -t "${FLATPAK_DEST}/share/applications" com.authy.Authy.desktop
-      - install -Dpm644 -t "${FLATPAK_DEST}/share/metainfo" com.authy.Authy.metainfo.xml
+      - install -Dpm644 -t "${FLATPAK_DEST}/share/icons/hicolor/512x512/apps" "${FLATPAK_ID}.png"
+      - install -Dpm644 -t "${FLATPAK_DEST}/share/applications" "${FLATPAK_ID}.desktop"
+      - install -Dpm644 -t "${FLATPAK_DEST}/share/metainfo" "${FLATPAK_ID}.metainfo.xml"
     sources:
       - type: extra-data
         filename: authy.snap
