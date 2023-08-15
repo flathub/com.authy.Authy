@@ -37,15 +37,16 @@ modules:
       - install -Dpm755 -t "${FLATPAK_DEST}/bin" apply_extra
       - install -Dpm755 -t "${FLATPAK_DEST}/bin" authy
     post-install:
-      - for s in 16 48 128 256 512; do install -Dpm644 -T "icons/${s}.png" "${FLATPAK_DEST}/share/icons/hicolor/${s}x${s}/apps/${FLATPAK_ID}.png"; done
+      - for s in 16 48 128 256 512; do install -Dpm644 -T "icons/${s}.png" "${FLATPAK_DEST}/share/icons/hicolor/${s}x${s}/apps/${FLATPAK_ID}.png";
+        done
       - install -Dpm644 -t "${FLATPAK_DEST}/share/applications" "${FLATPAK_ID}.desktop"
       - install -Dpm644 -t "${FLATPAK_DEST}/share/metainfo" "${FLATPAK_ID}.metainfo.xml"
     sources:
       - type: extra-data
         filename: authy.snap
-        url: https://api.snapcraft.io/api/v1/snaps/download/H8ZpNgIoPyvmkgxOWw5MSzsXK1wRZiHn_20.snap
-        sha256: 269aa33db0c21d9f308a9fcf1d89f926fd5ed9a8223ad49ba0051f5496f30d28
-        size: 84652032
+        url: https://api.snapcraft.io/api/v1/snaps/download/H8ZpNgIoPyvmkgxOWw5MSzsXK1wRZiHn_21.snap
+        sha256: 6b9cfa2f0760a1dcbcf1fee16acfdfd80320f66f5f196b0949ec5933a29418e6
+        size: 73940992
         x-checker-data:
           type: snapcraft
           name: authy
