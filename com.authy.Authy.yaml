@@ -1,9 +1,7 @@
 app-id: com.authy.Authy
 
-base: org.electronjs.Electron2.BaseApp
-base-version: &base-version '22.08'
 runtime: org.freedesktop.Platform
-runtime-version: *base-version
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 
 tags:
@@ -60,7 +58,7 @@ modules:
       - type: script
         dest-filename: authy
         commands:
-          - exec zypak-wrapper.sh /app/extra/authy/authy "$@"
+          - exec /app/extra/authy/authy --no-sandbox "$@"
       - type: file
         path: com.authy.Authy.metainfo.xml
       - type: file
