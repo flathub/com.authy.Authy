@@ -1,7 +1,7 @@
 app-id: com.authy.Authy
 
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 
 tags:
