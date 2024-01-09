@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop" date_eol="2023-08-01">
     <id>com.authy.Authy</id>
     <name>Authy Desktop</name>
     <metadata_license>CC0-1.0</metadata_license>
@@ -9,10 +9,11 @@
     <description>
         <p>The Authy app generates secure 2 step verification tokens on your computer.</p>
         <p>NOTE: This wrapper is not verified by, affiliated with, or supported by Authy nor Twilio.</p>
+        <p>IMPORTANT: This app will reach their End-of-Life in August 2024 (more info in FAQ link).</p>
     </description>
     <url type="homepage">https://authy.com/</url>
     <url type="help">https://authy.com/help/</url>
-    <url type="faq">https://support.authy.com/</url>
+    <url type="faq">https://support.authy.com/hc/en-us/categories/360000616253-Authy-Application</url>
     <screenshots>
         <screenshot type="default">
             <image type="source">https://authy.com/wp-content/uploads/Authy-Screenshot-1.png</image>
