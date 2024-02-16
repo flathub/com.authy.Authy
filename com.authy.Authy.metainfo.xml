@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop" date_eol="2023-03-19">
+<component type="desktop-application" date_eol="2023-03-19">
     <id>com.authy.Authy</id>
     <name>Authy Desktop</name>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>LicenseRef-proprietary</project_license>
     <developer_name>Twilio Authy</developer_name>
-    <summary>Twilio Authy two factor authentication desktop application</summary>
+    <summary>Two factor authentication</summary>
     <description>
         <p>The Authy app generates secure 2 step verification tokens on your computer.</p>
         <p>NOTE: This wrapper is not verified by, affiliated with, or supported by Authy nor Twilio.</p>
         <p>IMPORTANT: This app will reach their End-of-Life on March 19, 2024 (more info in FAQ link).</p>
     </description>
+    <launchable type="desktop-id">com.authy.Authy.desktop</launchable>
     <url type="homepage">https://authy.com/</url>
     <url type="help">https://authy.com/help/</url>
     <url type="faq">https://help.twilio.com/sections/19752334096411</url>
