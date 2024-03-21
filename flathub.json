@@ -1,4 +1,4 @@
 {
-  "automerge-flathubbot-prs": true,
+  "end-of-life": "The Authy Desktop app have their End-of-Life. It is recommended to switch to use their mobile apps instead or other equivalent desktop apps.",
   "only-arches": ["x86_64"]
 }
